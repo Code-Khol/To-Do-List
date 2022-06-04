@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>475</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <widget class="QLineEdit" name="task">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="task_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>300</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>40</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>70</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>100</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>130</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_5">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_6">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>190</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_7">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>220</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_8">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>250</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_9">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>280</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_10">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>310</y>
+       <width>120</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Not Started</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blocked</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>In Process</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Complete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="run">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>451</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Run</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
